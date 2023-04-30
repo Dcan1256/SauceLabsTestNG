@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SAS">
+
+    <listeners>
+        <listener class-name="Utilities.ExtentReportManager" />
+    </listeners>
+
+    <test thread-count="5" name="TC_005" preserve-order="true">
+        <parameter name="browser" value="firefox" />    <!-- passing browser parameter to BaseClass ->Setup() -->
+
+        <groups>
+            <run>
+                <include name="Sanity" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TestCases.TC_001_Login"/>
+            <class name="TestCases.TC_002_SortingAll"/>
+            <class name="TestCases.TC_003_Logout"/>
+            <class name="TestCases.TC_004_FullCheckOut"/>
+            <class name="TestCases.TC_005_Experiment"/>
+        </classes>
+
+
+    </test><!--SauceAppTest-->
+</suite> <!--SauceAppSuit-->
