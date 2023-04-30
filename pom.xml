@@ -14,24 +14,21 @@
             <plugins>
 
                 <plugin>
-                    <!-- Maven Surefire MOJO in maven-surefire-plugin. -->
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M7</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>TestNG(Sanity).xml</suiteXmlFile>
-                            <suiteXmlFile>TestNG(Regression).xml</suiteXmlFile>
-                            <suiteXmlFile>TestNG(CrossBrowser-Sanity).xml</suiteXmlFile>
                             <suiteXmlFile>TestNG(CrossBrowser-Regression).xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(CrossBrowser-Sanity).xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(Regression).xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(Sanity).xml</suiteXmlFile>
                         </suiteXmlFiles>
 
-
-                        </configuration>
+                    </configuration>
                 </plugin>
 
                 <plugin>
-                    <!-- The Compiler Plugin is used to compile the sources of your project. -->
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.10.1</version>

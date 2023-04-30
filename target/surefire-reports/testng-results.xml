@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="40" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-30T14:30:21 CDT" name="SAS" finished-at="2023-04-30T14:31:24 CDT" duration-ms="63295">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@402bba4f]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@9f116cc]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@6069db50]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@1b7cc17c]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@5b8dfcc1]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@747ddf94]" name="logout" class="TestCases.TC_003_Logout"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@402bba4f]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@9f116cc]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@6069db50]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@1b7cc17c]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@5b8dfcc1]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_002_SortingAll.sorting()[pri:0, instance:TestCases.TC_002_SortingAll@2f9f7dcf]" name="sorting" class="TestCases.TC_002_SortingAll"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@747ddf94]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_004_FullCheckOut.addingToCartAndPriceCheck()[pri:0, instance:TestCases.TC_004_FullCheckOut@35e2d654]" name="addingToCartAndPriceCheck" class="TestCases.TC_004_FullCheckOut"/>
+        <method signature="TC_005_Experiment.experiment()[pri:0, instance:TestCases.TC_005_Experiment@1bd4fdd]" name="experiment" class="TestCases.TC_005_Experiment"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-30T14:30:21 CDT" name="SauceLabsTestNG Firefox Sanity" finished-at="2023-04-30T14:30:34 CDT" duration-ms="13218">
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@402bba4f]" started-at="2023-04-30T14:30:21 CDT" name="setUp" finished-at="2023-04-30T14:30:24 CDT" duration-ms="2866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@402bba4f]" started-at="2023-04-30T14:30:24 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:30:27 CDT" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@402bba4f]" started-at="2023-04-30T14:30:27 CDT" name="tearDown" finished-at="2023-04-30T14:30:28 CDT" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@9f116cc]" started-at="2023-04-30T14:30:28 CDT" name="setUp" finished-at="2023-04-30T14:30:30 CDT" duration-ms="1735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@9f116cc]" started-at="2023-04-30T14:30:30 CDT" name="logout" finished-at="2023-04-30T14:30:34 CDT" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@9f116cc]" started-at="2023-04-30T14:30:34 CDT" name="tearDown" finished-at="2023-04-30T14:30:34 CDT" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- SauceLabsTestNG Firefox Sanity -->
+    <test started-at="2023-04-30T14:30:34 CDT" name="SauceLabsTestNG Chrome Sanity" finished-at="2023-04-30T14:30:46 CDT" duration-ms="11820">
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@6069db50]" started-at="2023-04-30T14:30:34 CDT" name="setUp" finished-at="2023-04-30T14:30:38 CDT" duration-ms="3946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@6069db50]" started-at="2023-04-30T14:30:38 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:30:41 CDT" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@6069db50]" started-at="2023-04-30T14:30:41 CDT" name="tearDown" finished-at="2023-04-30T14:30:42 CDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@1b7cc17c]" started-at="2023-04-30T14:30:42 CDT" name="setUp" finished-at="2023-04-30T14:30:43 CDT" duration-ms="1194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@1b7cc17c]" started-at="2023-04-30T14:30:43 CDT" name="logout" finished-at="2023-04-30T14:30:46 CDT" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@1b7cc17c]" started-at="2023-04-30T14:30:46 CDT" name="tearDown" finished-at="2023-04-30T14:30:46 CDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- SauceLabsTestNG Chrome Sanity -->
+    <test started-at="2023-04-30T14:30:46 CDT" name="SauceLabsTestNG Edge Sanity" finished-at="2023-04-30T14:31:24 CDT" duration-ms="38015">
+      <class name="TestCases.TC_004_FullCheckOut">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_004_FullCheckOut@35e2d654]" started-at="2023-04-30T14:31:05 CDT" name="setUp" finished-at="2023-04-30T14:31:08 CDT" duration-ms="2846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addingToCartAndPriceCheck()[pri:0, instance:TestCases.TC_004_FullCheckOut@35e2d654]" started-at="2023-04-30T14:31:08 CDT" name="addingToCartAndPriceCheck" finished-at="2023-04-30T14:31:12 CDT" duration-ms="3889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingToCartAndPriceCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_004_FullCheckOut@35e2d654]" started-at="2023-04-30T14:31:12 CDT" name="tearDown" finished-at="2023-04-30T14:31:12 CDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_004_FullCheckOut -->
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@5b8dfcc1]" started-at="2023-04-30T14:30:46 CDT" name="setUp" finished-at="2023-04-30T14:30:49 CDT" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@5b8dfcc1]" started-at="2023-04-30T14:30:49 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:30:52 CDT" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@5b8dfcc1]" started-at="2023-04-30T14:30:52 CDT" name="tearDown" finished-at="2023-04-30T14:30:52 CDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_005_Experiment">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_005_Experiment@1bd4fdd]" started-at="2023-04-30T14:31:12 CDT" name="setUp" finished-at="2023-04-30T14:31:15 CDT" duration-ms="2784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="experiment()[pri:0, instance:TestCases.TC_005_Experiment@1bd4fdd]" started-at="2023-04-30T14:31:15 CDT" name="experiment" finished-at="2023-04-30T14:31:24 CDT" duration-ms="9421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experiment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_005_Experiment@1bd4fdd]" started-at="2023-04-30T14:31:24 CDT" name="tearDown" finished-at="2023-04-30T14:31:24 CDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_005_Experiment -->
+      <class name="TestCases.TC_002_SortingAll">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_002_SortingAll@2f9f7dcf]" started-at="2023-04-30T14:30:52 CDT" name="setUp" finished-at="2023-04-30T14:30:55 CDT" duration-ms="2782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sorting()[pri:0, instance:TestCases.TC_002_SortingAll@2f9f7dcf]" started-at="2023-04-30T14:30:55 CDT" name="sorting" finished-at="2023-04-30T14:30:59 CDT" duration-ms="3500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_002_SortingAll@2f9f7dcf]" started-at="2023-04-30T14:30:59 CDT" name="tearDown" finished-at="2023-04-30T14:30:59 CDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_002_SortingAll -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@747ddf94]" started-at="2023-04-30T14:30:59 CDT" name="setUp" finished-at="2023-04-30T14:31:02 CDT" duration-ms="2815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@747ddf94]" started-at="2023-04-30T14:31:02 CDT" name="logout" finished-at="2023-04-30T14:31:05 CDT" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@747ddf94]" started-at="2023-04-30T14:31:05 CDT" name="tearDown" finished-at="2023-04-30T14:31:05 CDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- SauceLabsTestNG Edge Sanity -->
+  </suite> <!-- SAS -->
+  <suite started-at="2023-04-30T14:32:39 CDT" name="SAS (2)" finished-at="2023-04-30T14:32:51 CDT" duration-ms="12122">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@128d2484]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@7c7b252e]" name="logout" class="TestCases.TC_003_Logout"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@128d2484]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@7c7b252e]" name="logout" class="TestCases.TC_003_Logout"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-30T14:32:39 CDT" name="TC_005" finished-at="2023-04-30T14:32:51 CDT" duration-ms="12122">
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@128d2484]" started-at="2023-04-30T14:32:39 CDT" name="setUp" finished-at="2023-04-30T14:32:41 CDT" duration-ms="1885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@128d2484]" started-at="2023-04-30T14:32:41 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:32:45 CDT" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@128d2484]" started-at="2023-04-30T14:32:45 CDT" name="tearDown" finished-at="2023-04-30T14:32:45 CDT" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@7c7b252e]" started-at="2023-04-30T14:32:45 CDT" name="setUp" finished-at="2023-04-30T14:32:47 CDT" duration-ms="1900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@7c7b252e]" started-at="2023-04-30T14:32:47 CDT" name="logout" finished-at="2023-04-30T14:32:51 CDT" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@7c7b252e]" started-at="2023-04-30T14:32:51 CDT" name="tearDown" finished-at="2023-04-30T14:32:51 CDT" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- TC_005 -->
+  </suite> <!-- SAS (2) -->
+  <suite started-at="2023-04-30T14:31:58 CDT" name="SAS (1)" finished-at="2023-04-30T14:32:39 CDT" duration-ms="41754">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@4135c3b]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@31304f14]" name="logout" class="TestCases.TC_003_Logout"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@4135c3b]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_002_SortingAll.sorting()[pri:0, instance:TestCases.TC_002_SortingAll@6302bbb1]" name="sorting" class="TestCases.TC_002_SortingAll"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@31304f14]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_004_FullCheckOut.addingToCartAndPriceCheck()[pri:0, instance:TestCases.TC_004_FullCheckOut@34a3d150]" name="addingToCartAndPriceCheck" class="TestCases.TC_004_FullCheckOut"/>
+        <method signature="TC_005_Experiment.experiment()[pri:0, instance:TestCases.TC_005_Experiment@2a4fb17b]" name="experiment" class="TestCases.TC_005_Experiment"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-30T14:31:58 CDT" name="TC_005" finished-at="2023-04-30T14:32:39 CDT" duration-ms="41754">
+      <class name="TestCases.TC_004_FullCheckOut">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_004_FullCheckOut@34a3d150]" started-at="2023-04-30T14:32:16 CDT" name="setUp" finished-at="2023-04-30T14:32:18 CDT" duration-ms="1925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addingToCartAndPriceCheck()[pri:0, instance:TestCases.TC_004_FullCheckOut@34a3d150]" started-at="2023-04-30T14:32:18 CDT" name="addingToCartAndPriceCheck" finished-at="2023-04-30T14:32:24 CDT" duration-ms="6154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingToCartAndPriceCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_004_FullCheckOut@34a3d150]" started-at="2023-04-30T14:32:24 CDT" name="tearDown" finished-at="2023-04-30T14:32:25 CDT" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_004_FullCheckOut -->
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@4135c3b]" started-at="2023-04-30T14:31:58 CDT" name="setUp" finished-at="2023-04-30T14:31:59 CDT" duration-ms="1765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@4135c3b]" started-at="2023-04-30T14:31:59 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:32:03 CDT" duration-ms="3353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@4135c3b]" started-at="2023-04-30T14:32:03 CDT" name="tearDown" finished-at="2023-04-30T14:32:03 CDT" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_005_Experiment">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_005_Experiment@2a4fb17b]" started-at="2023-04-30T14:32:25 CDT" name="setUp" finished-at="2023-04-30T14:32:27 CDT" duration-ms="1708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="experiment()[pri:0, instance:TestCases.TC_005_Experiment@2a4fb17b]" started-at="2023-04-30T14:32:27 CDT" name="experiment" finished-at="2023-04-30T14:32:39 CDT" duration-ms="12087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experiment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_005_Experiment@2a4fb17b]" started-at="2023-04-30T14:32:39 CDT" name="tearDown" finished-at="2023-04-30T14:32:39 CDT" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_005_Experiment -->
+      <class name="TestCases.TC_002_SortingAll">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_002_SortingAll@6302bbb1]" started-at="2023-04-30T14:32:03 CDT" name="setUp" finished-at="2023-04-30T14:32:05 CDT" duration-ms="1895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sorting()[pri:0, instance:TestCases.TC_002_SortingAll@6302bbb1]" started-at="2023-04-30T14:32:05 CDT" name="sorting" finished-at="2023-04-30T14:32:09 CDT" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_002_SortingAll@6302bbb1]" started-at="2023-04-30T14:32:09 CDT" name="tearDown" finished-at="2023-04-30T14:32:10 CDT" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_002_SortingAll -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@31304f14]" started-at="2023-04-30T14:32:10 CDT" name="setUp" finished-at="2023-04-30T14:32:12 CDT" duration-ms="1904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@31304f14]" started-at="2023-04-30T14:32:12 CDT" name="logout" finished-at="2023-04-30T14:32:16 CDT" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@31304f14]" started-at="2023-04-30T14:32:16 CDT" name="tearDown" finished-at="2023-04-30T14:32:16 CDT" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- TC_005 -->
+  </suite> <!-- SAS (1) -->
+  <suite started-at="2023-04-30T14:31:24 CDT" name="SAS (0)" finished-at="2023-04-30T14:31:58 CDT" duration-ms="33281">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@42a48628]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@6aeb35e6]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@409bf450]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@49e53c76]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@18078bef]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@4c371370]" name="logout" class="TestCases.TC_003_Logout"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@42a48628]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@6aeb35e6]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@409bf450]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@49e53c76]" name="logout" class="TestCases.TC_003_Logout"/>
+        <method signature="TC_001_Login.loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@18078bef]" name="loginWithValidCredentials" class="TestCases.TC_001_Login"/>
+        <method signature="TC_003_Logout.logout()[pri:0, instance:TestCases.TC_003_Logout@4c371370]" name="logout" class="TestCases.TC_003_Logout"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-30T14:31:24 CDT" name="SauceLabsTestNG Firefox Sanity" finished-at="2023-04-30T14:31:36 CDT" duration-ms="11922">
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@42a48628]" started-at="2023-04-30T14:31:24 CDT" name="setUp" finished-at="2023-04-30T14:31:26 CDT" duration-ms="1942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@42a48628]" started-at="2023-04-30T14:31:26 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:31:30 CDT" duration-ms="3339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@42a48628]" started-at="2023-04-30T14:31:30 CDT" name="tearDown" finished-at="2023-04-30T14:31:30 CDT" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@6aeb35e6]" started-at="2023-04-30T14:31:30 CDT" name="setUp" finished-at="2023-04-30T14:31:32 CDT" duration-ms="1639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@6aeb35e6]" started-at="2023-04-30T14:31:32 CDT" name="logout" finished-at="2023-04-30T14:31:36 CDT" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@6aeb35e6]" started-at="2023-04-30T14:31:36 CDT" name="tearDown" finished-at="2023-04-30T14:31:36 CDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- SauceLabsTestNG Firefox Sanity -->
+    <test started-at="2023-04-30T14:31:36 CDT" name="SauceLabsTestNG Chrome Sanity" finished-at="2023-04-30T14:31:45 CDT" duration-ms="8972">
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@409bf450]" started-at="2023-04-30T14:31:36 CDT" name="setUp" finished-at="2023-04-30T14:31:37 CDT" duration-ms="1207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@409bf450]" started-at="2023-04-30T14:31:37 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:31:41 CDT" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@409bf450]" started-at="2023-04-30T14:31:41 CDT" name="tearDown" finished-at="2023-04-30T14:31:41 CDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@49e53c76]" started-at="2023-04-30T14:31:41 CDT" name="setUp" finished-at="2023-04-30T14:31:42 CDT" duration-ms="1162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@49e53c76]" started-at="2023-04-30T14:31:42 CDT" name="logout" finished-at="2023-04-30T14:31:45 CDT" duration-ms="3273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@49e53c76]" started-at="2023-04-30T14:31:45 CDT" name="tearDown" finished-at="2023-04-30T14:31:45 CDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- SauceLabsTestNG Chrome Sanity -->
+    <test started-at="2023-04-30T14:31:45 CDT" name="SauceLabsTestNG Edge Sanity" finished-at="2023-04-30T14:31:58 CDT" duration-ms="12329">
+      <class name="TestCases.TC_001_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_001_Login@18078bef]" started-at="2023-04-30T14:31:45 CDT" name="setUp" finished-at="2023-04-30T14:31:48 CDT" duration-ms="2818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:TestCases.TC_001_Login@18078bef]" started-at="2023-04-30T14:31:48 CDT" name="loginWithValidCredentials" finished-at="2023-04-30T14:31:51 CDT" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_Login@18078bef]" started-at="2023-04-30T14:31:51 CDT" name="tearDown" finished-at="2023-04-30T14:31:51 CDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_Login -->
+      <class name="TestCases.TC_003_Logout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC_003_Logout@4c371370]" started-at="2023-04-30T14:31:51 CDT" name="setUp" finished-at="2023-04-30T14:31:54 CDT" duration-ms="2769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:TestCases.TC_003_Logout@4c371370]" started-at="2023-04-30T14:31:54 CDT" name="logout" finished-at="2023-04-30T14:31:57 CDT" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_Logout@4c371370]" started-at="2023-04-30T14:31:57 CDT" name="tearDown" finished-at="2023-04-30T14:31:58 CDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_Logout -->
+    </test> <!-- SauceLabsTestNG Edge Sanity -->
+  </suite> <!-- SAS (0) -->
+</testng-results>

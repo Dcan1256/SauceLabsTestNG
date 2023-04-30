@@ -7,13 +7,13 @@
         <listener class-name="Utilities.ExtentReportManager" />
     </listeners>
 
-    <!--SauceLabs Sanity Firefox-->
-    <test thread-count="5" name="SauceLabs Sanity firefox test" preserve-order="true">
+    <!--SauceAppTest Firefox-->
+    <test thread-count="5" name="SauceLabsTestNG Firefox Sanity" preserve-order="true">
         <parameter name="browser" value="firefox" />    <!-- passing browser parameter to BaseClass ->Setup() -->
 
         <groups>
             <run>
-                <include name="Regression" />
+                <include name="Sanity" />
             </run>
         </groups>
 
@@ -26,15 +26,15 @@
         </classes>
 
 
-    </test><!--SauceLabs Sanity firefox test-->
+    </test><!--SauceAppTest Firefox-->
 
-    <!--SauceLabs Sanity Chrome-->
-    <test thread-count="5" name="SauceLabs Sanity chrome test" preserve-order="true">
+    <!--SauceAppTest Chrome-->
+    <test thread-count="5" name="SauceLabsTestNG Chrome Sanity" preserve-order="true">
         <parameter name="browser" value="chrome" />    <!-- passing browser parameter to BaseClass ->Setup() -->
 
         <groups>
             <run>
-                <include name="Regression" />
+                <include name="Sanity" />
             </run>
         </groups>
 
@@ -47,10 +47,10 @@
         </classes>
 
 
-    </test><!--SauceLabs Sanity chrome test-->
+    </test><!--SauceAppTest Chrome-->
 
-    <!--SauceLabs Sanity Edge-->
-    <test thread-count="5" name="SauceLabs Sanity edge test" preserve-order="true">
+    <!--SauceAppTest Edge-->
+    <test thread-count="5" name="SauceLabsTestNG Edge Sanity" preserve-order="true">
         <parameter name="browser" value="edge" />    <!-- passing browser parameter to BaseClass ->Setup() -->
 
         <groups>
@@ -68,6 +68,6 @@
         </classes>
 
 
-    </test><!--SauceLabs Sanity edge test-->
+    </test><!--SauceAppTest Edge-->
 
 </suite> <!--SauceAppSuit-->
