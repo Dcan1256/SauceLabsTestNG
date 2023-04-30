@@ -20,10 +20,14 @@
                     <version>3.0.0-M7</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>master.xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(Sanity).xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(Regression).xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(CrossBrowser-Sanity).xml</suiteXmlFile>
+                            <suiteXmlFile>TestNG(CrossBrowser-Regression).xml</suiteXmlFile>
                         </suiteXmlFiles>
 
-                    </configuration>
+
+                        </configuration>
                 </plugin>
 
                 <plugin>
